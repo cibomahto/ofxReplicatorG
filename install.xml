@@ -1,0 +1,27 @@
+<install>
+	<name>ofxReplicatorG</name>
+	<version>0.01</version>
+	<author>Matt Mets</author>
+	<url></url>
+	<requires>ofxNetwork</requires>
+	
+	<add>
+		
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+	
+		<src>
+			<folder name="addons/ofxReplicatorG/src">
+				<file>../../../addons/ofxReplicatorG/src/ofxReplicatorG.h</file>
+				<file>../../../addons/ofxReplicatorG/src/ofxReplicatorG.cpp</file>
+			</folder>
+		</src>
+		
+		<include>
+			<path>../../../addons/ofxReplicatorG/src</path>
+		</include>
+		
+	</add>
+	 
+</install>
